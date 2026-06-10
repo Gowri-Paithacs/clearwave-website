@@ -28,11 +28,9 @@ body{
     width:90%;
     max-width:1200px;
     margin:auto;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     padding:25px 0;
 }
 
@@ -48,42 +46,34 @@ body{
 .logo:hover .logo-accent{
     color:#2A9D8F;
 }
-
 .nav-links{
     list-style:none;
     display:flex;
     gap:40px;
 }
-
 .nav-links a{
     text-decoration:none;
     color:var(--text-2);
     font-size:14px;
 }
-
 .nav-right{
     display:flex;
     align-items:center;
     gap:20px;
 }
-
 .signin{
     text-decoration:none;
     color:var(--text-2);
     font-size:14px;
 }
-
 .trial{
     text-decoration:none;
     background:var(--accent);
     color:white;
-
     padding:12px 24px;
     border-radius:999px;
-
     font-size:14px;
     font-weight:600;
-
     box-shadow:0 10px 25px rgba(26,122,110,.25);
 }
 
@@ -93,13 +83,10 @@ body{
     width:90%;
     max-width:1200px;
     margin:0 auto;
-
     min-height:80vh;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     gap:120px;
 }
 .hero-stats span{
@@ -112,7 +99,6 @@ body{
     color:var(--accent);
     font-size:14px;
 }
-
 .hero-left{
     flex:0 0 55%;
     max-width:650px;
@@ -121,28 +107,20 @@ body{
     display:inline-flex;
     align-items:center;
     gap:10px;
-
     background:white;
     padding:12px 20px;
-
     border-radius:999px;
-
     font-size:13px;
     color:var(--accent);
-
     margin-bottom:35px;
-
     box-shadow:0 5px 15px rgba(0,0,0,.05);
 }
-
-
 .hero-left h1{
     font-size:72px;
     line-height:.95;
     white-space:nowrap;
     margin-bottom: 35px;
 }
-
 .hero-left h1 span{
     display:block;
     font-family:"Playfair Display", serif;
@@ -150,26 +128,21 @@ body{
     color:var(--accent);
     font-weight:500;
 }
-
 .hero-left p{
     max-width:500px;
     font-size:18px;
     line-height:1.8;
     margin-bottom:35px;
 }
-
 .hero-buttons{
     display:flex;
     gap:16px;
     margin-bottom:40px;
 }
-
 .first-btn{
     text-decoration:none;
-
     background:var(--accent);
     color:white;
-
     padding:18px 32px;
     border-radius:999px;
     font-weight:600;
@@ -184,7 +157,6 @@ body{
     padding:16px 24px;
     border-radius:40px;
     border:1px solid var(--border);
-
     display:flex;
     align-items:center;
     gap:10px;
@@ -193,23 +165,18 @@ body{
 .play-icon{
     width:24px;
     height:24px;
-
     background:var(--accent);
     color:white;
-
     border-radius:50%;
-
     display:flex;
     align-items:center;
     justify-content:center;
-
     font-size:10px;
     padding-left:2px; /* visually centers the triangle */
 }
 .hero-stats{
     display:flex;
     gap:35px;
-
     color:var(--text-3);
     font-size:14px;
 }
@@ -223,71 +190,54 @@ body{
 }
 .dashboard{
     position:relative;
-
     width:500px;
-
     background:white;
-
     padding:20px;
-
     border-radius:24px;
-
     box-shadow:0 25px 60px rgba(0,0,0,.08);
 }
 w-dots{
     display:flex;
     gap:6px;
-
     margin-bottom:18px;
 }
-
 .window-dots{
     display:flex;
     gap:8px;
     margin-bottom:20px;
 }
-
 .window-dots span{
     width:10px;
     height:10px;
     border-radius:50%;
     display:block;
 }
-
 .red{
     background:#ff6b6b;
 }
-
 .yellow{
     background:#f7c948;
 }
-
 .green{
     background:#51cf66;
 }
-
 .dashboard h4{
     font-size:14px;
     margin-bottom:20px;
 }
-
 /* BARS */
-
 .bars{
     display:flex;
     align-items:flex-end;
     gap:10px;
-
     height:110px;
     margin:25px 0;
 }
-
 .bars div{
     width:28px;
     background:#e8efee;
     border-radius:4px;
 }
-
 
 .bars div:nth-child(1){height:18px;}
 .bars div:nth-child(2){height:28px;}
@@ -329,17 +279,12 @@ w-dots{
 
 .growth-card{
     position:absolute;
-
     top:12px;
     right:-18px;
-
     background:var(--accent);
     color:white;
-
     padding:14px 18px;
-
     border-radius:14px;
-
     box-shadow:0 12px 30px rgba(0,0,0,.15);
 }
 
@@ -355,35 +300,25 @@ w-dots{
 
 .integration-card{
     position:absolute;
-
     left:-25px;
     bottom:-25px;
-
     display:flex;
     align-items:center;
     gap:10px;
-
     background:white;
-
     padding:12px 14px;
-
     border-radius:12px;
-
     box-shadow:0 12px 30px rgba(0,0,0,.1);
 }
 .plus{
     width:30px;
     height:30px;
-
     border-radius:8px;
-
     background:var(--accent);
     color:white;
-
     display:flex;
     justify-content:center;
     align-items:center;
-
     font-weight:700;
 }
 
@@ -403,7 +338,6 @@ w-dots{
     width:100%;
     margin-top:80px;
     padding:40px 0;
-
     background:white;
     border-top:1px solid rgba(0,0,0,.05);
 }
@@ -421,7 +355,6 @@ w-dots{
     width:90%;
     max-width:1200px;
     margin:auto;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -432,7 +365,6 @@ w-dots{
     display:flex;
     align-items:center;
     gap:10px;
-
     color:#6b8c88;
     font-size:15px;
     font-weight:600;
@@ -441,30 +373,20 @@ w-dots{
 .company-icon{
     width:24px;
     height:24px;
-
     background:#eef5f2;
-
     border-radius:8px;
-
     position:relative;
-
     flex-shrink:0;
 }
 .grid::before{
     content:"";
-
     position:absolute;
-
     width:4px;
     height:4px;
-
     background:#1A7A6E;
-
     top:7px;
     left:7px;
-
     border-radius:1px;
-
     box-shadow:
         6px 0 #1A7A6E,
         0 6px #1A7A6E,
@@ -472,104 +394,71 @@ w-dots{
 }
 .clock::before{
     content:"";
-
     position:absolute;
-
     width:10px;
     height:10px;
-
     border:2px solid #1A7A6E;
     border-radius:50%;
-
     top:50%;
     left:50%;
-
     transform:translate(-50%,-50%);
 }
 
 .clock::after{
     content:"";
-
     position:absolute;
-
     width:4px;
     height:4px;
-
     border-top:2px solid #1A7A6E;
     border-right:2px solid #1A7A6E;
-
     top:50%;
     left:50%;
-
     transform:translate(-30%,-70%) rotate(-45deg);
 }
 .triangle::after{
     content:"";
-
     position:absolute;
-
     top:50%;
     left:50%;
-
     transform:translate(-50%,-50%);
-
     width:0;
     height:0;
-
     border-left:5px solid transparent;
     border-right:5px solid transparent;
     border-bottom:9px solid #1A7A6E;
 }
 .square::after{
     content:"";
-
     position:absolute;
-
     width:8px;
     height:8px;
-
     background:#1A7A6E;
-
     border-radius:2px;
-
     top:50%;
     left:50%;
-
     transform:translate(-50%,-50%);
 }
 .user::before{
     content:"";
-
     position:absolute;
-
     width:6px;
     height:6px;
-
     background:#1A7A6E;
-
     border-radius:50%;
-
     top:5px;
     left:50%;
-
     transform:translateX(-50%);
 }
 
 .user::after{
     content:"";
-
     position:absolute;
-
     width:10px;
     height:5px;
-
     background:#1A7A6E;
-
     border-radius:8px 8px 0 0;
-
     bottom:5px;
     left:50%;
-
     transform:translateX(-50%);
 }
 .block::after{
@@ -584,13 +473,7 @@ w-dots{
     transform:translate(-50%,-50%);
 }
 
-
-
 /* slide 2 */
-
-
-
-
 
 .features-section{
     width:90%;
@@ -612,7 +495,6 @@ w-dots{
     font-size:11px;
     font-weight:700;
     letter-spacing:2px;
-
     margin-bottom:25px;
 }
 .section-header h2{
@@ -620,14 +502,12 @@ w-dots{
     line-height:1.1;
     margin-bottom:24px;
 }
-
 .section-header h2 span{
     color:var(--accent);
     font-family:"Playfair Display", serif;
     font-style:italic;
     font-weight:500;
 }
-
 .section-header p{
     max-width:620px;
     margin:auto;
@@ -656,13 +536,10 @@ w-dots{
     padding:0;
     margin-top:25px;
 }
-
 .feature-list li{
     position:relative;
     padding-left:30px;
-
     margin-bottom:14px;
-
     color:#6b8c88;
     font-size:14px;
     line-height:1.6;
@@ -671,21 +548,15 @@ w-dots{
 .feature-list li::before{
     content:"✓";
     position:absolute;
-
     left:0;
     top:2px;
-
     width:16px;
     height:16px;
-
     border-radius:50%;
-
     background:#dff2ee;
     color:#1A7A6E;
-
     font-size:10px;
     font-weight:700;
-
     display:flex;
     align-items:center;
     justify-content:center;
@@ -699,8 +570,6 @@ w-dots{
     text-transform:uppercase;
     margin-bottom:18px;
 }
-
-
 .top-metrics{
     display:flex;
     gap:15px;
@@ -816,9 +685,7 @@ w-dots{
 .online-card,
 .task-card{
     flex:1;
-
     background:#f7f9f8;
-
     padding:16px;
     border-radius:14px;
 }
