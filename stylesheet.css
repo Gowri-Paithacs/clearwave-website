@@ -108,10 +108,12 @@ body{
     font-size:13px;
     color:var(--accent);
     margin-bottom:35px;
-    box-shadow:0 5px 15px rgba(0,0,0,.05);
+    box-shadow:0 10px 25px rgba(26,122,110,.25);
+    font-weight:700;
 }
 .logo-black{
     color:black;
+    
 }
 .main-section-content h1{
     font-size:72px;
