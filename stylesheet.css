@@ -1023,14 +1023,12 @@ body{
     color:var(--text-3);
     margin-bottom:25px;
 }
-
 .expand-link{
     text-decoration:none;
     color:var(--accent);
     font-weight:600;
     font-size:14px;
 }
-
 .faq-item{
     display:flex;
     justify-content:space-between;
@@ -1045,8 +1043,6 @@ body{
 .faq-right{
     margin-bottom:70px;
 }
-
-
 .plus{
     width:40px;
     height:40px;
