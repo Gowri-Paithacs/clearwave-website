@@ -336,7 +336,7 @@ body{
     width:100%;
     margin-top:70px;
     padding:40px 0;
-    background:hwb(165 88% 6%);
+    background:lab(97.16% -0.33 -0.13);
     border-top:1px solid rgba(0,0,0,.05);
 }
 .trusted-title{
@@ -1051,7 +1051,7 @@ body{
     width:40px;
     height:40px;
     border-radius:50%;
-    border:2px solid hwb(173 64% 5%); 
+    border:2px solid lch(85.79% 7.76 183.2); 
     background:hsl(173, 27%, 94%);       
     display:flex;
     align-items:center;
